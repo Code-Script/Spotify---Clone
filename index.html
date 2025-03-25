@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone - clone</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+  </head>
+
+  <body>
+    <!-- left section start-->
+    <div class="container flex">
+
+      <div class="left bg-black">
+        <div class="close">
+          <img width="35px" class="invert" src="images/close.svg" alt="">
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo"><img width="130" class="invert" src="images/logo.svg" alt="" srcset=""></div>
+          <ul>
+            <li><img class="invert" src="images/home.svg" alt="home">Home</li>
+            <li><img class="invert" src="images/search.svg" alt="search">Search</li>
+          </ul>
+        </div>
+
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="images/playlist.svg" alt="">
+            <h2>
+              Your Library
+            </h2>
+          </div>
+
+          <div class="songList">
+            <ul>
+              
+            </ul>
+          </div>
+          
+          <div class="footer">
+            <div><a href="https://www.spotify.com/jp/legal/"></a><span>Legal</span></div>
+            <div><a href="https://www.spotify.com/jp/privacy/"></a><span>Privacy Center</span></div>
+            <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"></a><span>Privacy Policy</span></div>
+            <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"></a><span>Cookies</span></div>
+            <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"></a><span>About Ads</span></div>
+            <div><a href="https://www.spotify.com/jp/accessibility/"></a><span>Accessibility</span></div>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <!-- left section end-->
+
+      <!-- right section start -->
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburgerContainer">
+              <img width="30" class="invert hamburger" src="images/hamburger.svg" alt="">
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="grey" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="grey" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              </svg>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+
+        <div class="spotifyPlaylists">
+          <h2>Spotify Playlists</h2>
+          <div class="cardContainer">
+            <!-- <div data-folder="cs" class="card">
+              <div class="play">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="#000" xmlns="www.w3.org/2000/svg">
+                    <path d="M5 20V4L19 12L5 20Z" stroke="#141b34" stroke-width="1.5" stroke-linejoin="round"></path>
+                  </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+              <h3>Glory</h3>
+              <p>Yo Yo Honey Singh</p>
+            </div>
+            
+            <div data-folder="ncs" class="card">
+              <div class="play">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="#000" xmlns="www.w3.org/2000/svg">
+                    <path d="M5 20V4L19 12L5 20Z" stroke="#141b34" stroke-width="1.5" stroke-linejoin="round"></path>
+                  </svg>
+              </div>
+              <img src="https://i.scdn.co/image/ab67616d0000b273707ea5b8023ac77d31756ed4" alt="">
+              <h3>Glory</h3>
+              <p>Yo Yo Honey Singh</p>
+            </div> -->
+
+
+          </div>
+          
+
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle">
+
+              </div>
+            </div>
+            <div class="barcontent">
+              <div class="songinfo">
+
+              </div>
+              <div class="songbuttons">
+                <img width="30" id="previous" src="images/prev_song.svg" alt="">
+                <img width="30" id="play" src="images/play.svg" alt="">
+                <img width="30" id="next" src="images/next_song.svg" alt="">
+              </div>
+              <div class="timevol">
+                <div class="songtime">
+
+                </div>
+                <div class="volume">
+                  <img width="25" src="images/volume.svg" alt="">
+                  <div class="range">
+                    <input type="range" name="volume" id="">
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+    <!-- right section end -->
+
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
